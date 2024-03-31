@@ -1,0 +1,50 @@
+.body-men{
+    padding: 0;
+    margin: 0;
+    background-position:center;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/fashion-web-urbanista.appspot.com/o/pascal-brauer-ttdio_nOPjQ-unsplash.jpg?alt=media&token=fb75684b-bf1a-46cd-94f4-3f18b14f79b7');
+    background-size:cover;
+     
+}
+
+
+/* @keyframes slide {
+    0%, 100% {
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/fashion-web-urbanista.appspot.com/o/slider-men%2Fzahir-namane-TjUJJACTav4-unsplash.jpg?alt=media&token=f92d0599-f63a-457f-9b6b-132dc204a9bf');
+        transform: translateY(0);
+        animation-delay: 50s;
+    }
+    
+    15%{
+        transform: translateY(100%);
+    }
+    30% {
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/fashion-web-urbanista.appspot.com/o/slider-men%2Fkenzie-kraft-9QW52RyBLao-unsplash.jpg?alt=media&token=43ec9f26-e84b-456b-a3a0-d83e7e77c646');
+        transform: translateY(0%);
+        animation-delay: 50s;
+    }
+    
+    45%{
+        transform: translateY(-100%);
+    }
+    50% {
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/fashion-web-urbanista.appspot.com/o/slider-men%2Fmajid-akbari-VRIGvNnUeok-unsplash.jpg?alt=media&token=9f0c23f9-f335-4be7-ab48-00ac6f9eb54f');
+        transform: translateY(0);
+        animation-delay: 50s;
+    }
+    65%{
+        transform: translateY(100%);
+    }
+    70% {
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/fashion-web-urbanista.appspot.com/o/slider-men%2Fprince-akachi-iuqcmC4NVNo-unsplash.jpg?alt=media&token=bc48886a-9a21-404e-9cc7-c65cd9276a58');
+        transform: translateY(0);
+        animation-delay: 50s;
+    }
+    85%{
+        transform: translateY(-100%);
+    }
+} */
+
+
+
+

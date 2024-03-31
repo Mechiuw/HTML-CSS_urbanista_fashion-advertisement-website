@@ -1,0 +1,258 @@
+/* .website-logo{
+    display: box;
+    width: 20px;
+    margin-left: 20px;
+    
+} */
+.logo{
+    margin-top: 15px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.body-index{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/fashion-web-urbanista.appspot.com/o/haley-lawrence-6ugQ978v-zg-unsplash.jpg?alt=media&token=08b44c9b-d0e3-45e8-8a8d-ade4e85b0559');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.base{
+    backdrop-filter: blur(3px);
+    border: inset rgb(255,255,255,0.2);    
+    display: block;
+    width: 1075px;
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: width 2s, height 1s;
+}
+.base:hover {
+    width: 900x;
+    height: 145px;
+    
+}
+
+.logoandnav{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+    flex-direction: row;
+    padding-right: 15px;
+    width: 100%;
+    color: white;
+}
+.website-nav-bar{
+    
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 40px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: auto; 
+    max-width: 800px; 
+    padding: 0 20px;
+    
+}
+.nav{
+    padding-left: 50px;
+    padding-right: 55px;
+    padding-bottom: 20px;
+}
+.headline-box{
+    width: 100%;
+    margin-left: 20px;
+}
+.headline{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+}
+.sub-headline{
+    margin-top: 20px;
+    width: 50%;
+    text-align: right;
+    font-size: 15px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: lighter;
+}
+.base-section{
+    display: box;
+    backdrop-filter: blur(3px);
+    border: ridge rgb(255,255,255,0.2);
+    width: 1075px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition: backdrop-filter 5s;
+    transition: height 2.5s;
+}
+
+.base-section:hover{
+    backdrop-filter: blur(8px);
+    height: 950px;
+}
+
+
+.text-main-title{
+    font-size: 100px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tm{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 75px;
+}
+.descriptions {
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.description-article {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.text-footer-pointer {
+    font-size: 40px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-pointer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.model-collections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
+.models{
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    padding:10px;
+    transition: height 1s ,width 1s ;
+}
+.models:hover{
+    height: 270px;
+    width: 195px;
+}
+
+.footer-box{
+    display: box;
+    backdrop-filter: blur(3px);
+    border: ridge rgb(255,255,255,0.2);
+    width: 1075px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 400px;
+    border-radius: 20px;
+}
+.footer-text{
+    font-size: 40px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.footer-text-box{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.desc{
+    font-size: 15px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.desc2{
+    font-size: 15px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    padding-left: 300px;
+}
+.contacts{
+    margin-left: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.men{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.women{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.locations{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.FAQ{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.copyright-mark{
+    margin-top:30px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.trademark-box{
+    margin-left: 40px;
+    margin-top: 10px;
+    text-align: center;
+    display: box;
+}
+.card-title{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.hover-card{
+    display: box;
+    margin-bottom: 70px;
+}
+.slide-animate {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 0px;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: width 0.5s;
+}
+
+.slide-animate:hover{
+    width: 35px;
+}
+.index{
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+}

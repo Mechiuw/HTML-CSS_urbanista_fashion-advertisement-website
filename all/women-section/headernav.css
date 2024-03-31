@@ -1,0 +1,29 @@
+.logo-header{
+    margin-top: 15px;
+    width: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.headline-header{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font-family: "Raleway", sans-serif;
+    color: whitesmoke;
+}
+
+.sub-headline-header{
+    margin-top: 20px;
+    width: 50%;
+    text-align: right;
+    font-size: 15px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+.index{
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+}
